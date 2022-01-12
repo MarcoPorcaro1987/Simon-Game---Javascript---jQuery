@@ -29,7 +29,7 @@ $(".start-btn").click(function () {
             nextSequence();
         }, 500);
         started = true;
-        $( ".start-btn" ).addClass("display-none");
+        $(".start-btn").addClass("display-none");
     }
 });
 
@@ -82,7 +82,7 @@ function checkAnswer(currentLevel) {
         }, 200);
         $("#level-title").text("Game Over, press any key or push the button to Restart");
         startOver();
-        $( ".start-btn" ).removeClass("display-none");
+        $(".start-btn").removeClass("display-none");
     }
 }
 
