@@ -29,6 +29,7 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  cursor: pointer;
 }
 
 .game-over {
@@ -60,7 +61,7 @@ body {
 .start-btn {
   width: 150px;
   height: 150px;
-  /* line-height: 40px; adjust line height to align vertically */
+  cursor: pointer;
   padding: 0;
   border-radius: 50%;
   background-color: lightblue;
